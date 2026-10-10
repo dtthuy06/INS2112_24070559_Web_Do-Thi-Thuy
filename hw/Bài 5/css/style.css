@@ -1,3 +1,4 @@
+/* ===== Reset chung ===== */
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,7 @@ body {
   background-color: #fff;
 }
 
+/* ===== Header ===== */
 header {
   background-color: #1d4ed8;
   color: #fff;
@@ -23,6 +25,7 @@ header h1 {
   font-weight: normal;
 }
 
+/* ===== Điều hướng ===== */
 nav {
   background-color: #1e3a8a;
 }
@@ -42,10 +45,12 @@ nav a {
   font-size: 1.15rem;
 }
 
-nav a:hover {
+nav a:hover,
+nav a.active {
   text-decoration: underline;
 }
 
+/* ===== Nội dung chính ===== */
 main {
   max-width: 900px;
   margin: 0 auto;
@@ -61,10 +66,15 @@ main p {
   font-size: 1.25rem;
 }
 
+/* ===== Footer ===== */
 footer {
   background-color: #111827;
   color: #e5e7eb;
   text-align: center;
   padding: 20px;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
+}
+
+footer a {
+  color: #93c5fd;
 }
